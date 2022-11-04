@@ -1,0 +1,138 @@
+.header_navigation,
+.navigation_container {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    color: rgba(0, 0, 0, 0.87);
+    font-family: Arial, sans-serif;
+    text-decoration: none;
+    font-size: 14px;
+    margin-right: 1.1rem;
+
+}
+
+.navigation_container :hover {
+    text-decoration: underline;
+}
+
+.main {
+    width: 100%;
+    height: calc(100vh - 65px - 90px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 8%;
+    font-family: Arial, sans-serif;
+}
+
+button {
+    background-color: transparent;
+    padding: 0px;
+    margin: 0px;
+    border-color: transparent;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.btn-search {
+    padding: 0.8rem 1.2rem;
+    color: rgba(0, 0, 0, 0.87);
+    border: 1px solid transparent;
+    background: #f2f2f2;
+    margin: 1.7rem 0.3rem 2rem 0.3rem;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.btn-search:hover,
+.btn-search:focus {
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    background-image: -webkit-linear-gradient(top, #f8f8f8, #f1f1f1);
+    background-color: #f8f8f8;
+    border: 1px solid #c6c6c6;
+    outline: none;
+    text-decoration: none;
+}
+
+.form-search {
+    width: 560px;
+    border: 1px solid #e4e4e4;
+    border-radius: 24px;
+    padding: 16px 40px;
+    display: flex;
+    font-size: 16px;
+    outline: none;
+}
+
+.form-search:hover,
+.form-search:focus {
+    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+    border-color: rgba(223, 225, 229, 0);
+    outline: none;
+}
+
+/* For the smaller screen */
+
+@media only screen and (max-width: 600px) {
+    header {
+        justify-content: flex-end;
+    }
+
+    header .header-info {
+        display: none;
+    }
+
+    .form-search {
+        width: 280px !important;
+    }
+
+    .logo {
+        position: relative;
+    }
+
+    .logo img {
+        width: 200px;
+    }
+
+    .logo span {
+        position: absolute;
+        color: #4285f4;
+        bottom: 30px;
+        right: -10px;
+    }
+
+    .btn-search {
+        font-size: 14px !important;
+        padding: 0.5rem 1rem !important;
+    }
+
+    footer div:nth-child(2) {
+        flex-direction: column;
+        align-items: center;
+        flex-flow: column-reverse;
+        font-size: 14px;
+    }
+
+    footer div:nth-child(2) ul li {
+        margin-right: 1rem;
+    }
+
+    .advanced-main__body,
+    .advanced-main__heading {
+        padding: 1rem;
+    }
+
+    .advanced-main__body-form-fields,
+    .advanced-main__heading-form-fields {
+        width: 100%;
+        padding-right: 0;
+    }
+
+    .advanced-main__body-tips,
+    .advanced-main__heading-tips {
+        display: none;
+    }
+}
