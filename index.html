@@ -25,6 +25,44 @@
         .navigation_container :hover {
             text-decoration: underline;
         }
+
+.main {
+    width: 100%;
+    height: calc(100vh - 65px - 90px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 8%;
+    font-family: Arial, sans-serif;
+}
+
+button {
+  background-color: transparent;
+  padding: 0px;
+  margin: 0px;
+  border-color: transparent;
+}
+
+.btn-search {
+  padding: 0.8rem 1.2rem;
+  color: rgba(0, 0, 0, 0.87);
+  border: 1px solid transparent;
+  background: #f2f2f2;
+  margin: 1.7rem 0.3rem 2rem 0.3rem;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.btn-search:hover,
+.btn-search:focus {
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  background-image: -webkit-linear-gradient(top, #f8f8f8, #f1f1f1);
+  background-color: #f8f8f8;
+  border: 1px solid #c6c6c6;
+  outline: none;
+  text-decoration: none;
+}
+
     </style>
 
 </head>
@@ -49,15 +87,15 @@
 
     <div class="main">
         <div class="logo">
-          <img src="googlelogo.png" alt="google logo" />
+          <img src="googlelogo_color_272x92dp.png" alt="google logo" />
         </div>
   
         <form action="https://www.google.com/search" method="GET">
           <input class="form-search" type="text" name="q" />
           <i class="fa fa-search icon-search"></i>
           <i class="fa fa-microphone icon-micro"></i>
-          <div class="buttons">
-            
+          <div class="button">
+
             <buttons>
               <input
                 type="submit"
