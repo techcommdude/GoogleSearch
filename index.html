@@ -19,7 +19,7 @@
             text-decoration: none;
             font-size: 14px;
             margin-right: 1.1rem;
-            
+
         }
 
         .navigation_container :hover {
@@ -47,14 +47,34 @@
         </ul>
     </header>
 
-    <div>
-
-        <form action="https://google.com/search">
-            <input type="text" name="q">
-            <input type="submit" value="Google Search">
+    <div class="main">
+        <div class="logo">
+          <img src="googlelogo.png" alt="google logo" />
+        </div>
+  
+        <form action="https://www.google.com/search" method="GET">
+          <input class="form-search" type="text" name="q" />
+          <i class="fa fa-search icon-search"></i>
+          <i class="fa fa-microphone icon-micro"></i>
+          <div class="buttons">
+            <buttons>
+              <input
+                type="submit"
+                value="Google Search"
+                name="btnK"
+                class="btn-search"
+              />
+              <input
+                type="submit"
+                value="I'm Feeling Lucky!"
+                name="btnI"
+                class="btn-search"
+              />
+            </buttons>
+          </div>
         </form>
-
-    </div>
+        <div class="lang-offer">Google offered in: <a href="#">Français</a></div>
+      </div>
 
     <footer>
 
