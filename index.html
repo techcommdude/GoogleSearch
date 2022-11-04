@@ -79,6 +79,69 @@
             border-color: rgba(223, 225, 229, 0);
             outline: none;
         }
+
+        /* For the smaller screen */
+
+        @media only screen and (max-width: 600px) {
+            header {
+                justify-content: flex-end;
+            }
+
+            header .header-info {
+                display: none;
+            }
+
+            .form-search {
+                width: 280px !important;
+            }
+
+            .logo {
+                position: relative;
+            }
+
+            .logo img {
+                width: 200px;
+            }
+
+            .logo span {
+                position: absolute;
+                color: #4285f4;
+                bottom: 30px;
+                right: -10px;
+            }
+
+            .btn-search {
+                font-size: 14px !important;
+                padding: 0.5rem 1rem !important;
+            }
+
+            footer div:nth-child(2) {
+                flex-direction: column;
+                align-items: center;
+                flex-flow: column-reverse;
+                font-size: 14px;
+            }
+
+            footer div:nth-child(2) ul li {
+                margin-right: 1rem;
+            }
+
+            .advanced-main__body,
+            .advanced-main__heading {
+                padding: 1rem;
+            }
+
+            .advanced-main__body-form-fields,
+            .advanced-main__heading-form-fields {
+                width: 100%;
+                padding-right: 0;
+            }
+
+            .advanced-main__body-tips,
+            .advanced-main__heading-tips {
+                display: none;
+            }
+        }
     </style>
 
 </head>
