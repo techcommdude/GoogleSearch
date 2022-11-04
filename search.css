@@ -25,17 +25,16 @@
     font-family: Arial, sans-serif;
 }
 
-button {
+.button {
     background-color: transparent;
     padding: 0px;
     margin: 0px;
     border-color: transparent;
-}
-
-.buttons {
     display: flex;
     justify-content: center;
 }
+
+
 
 .btn-search {
     padding: 0.8rem 1.2rem;
