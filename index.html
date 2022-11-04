@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Google Search</title>
+    <link rel="stylesheet" href="search.css" />
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <style>
+        .header_navigation,
+        .navigation_container {
+            display: flex;
+            justify-content: space-between;
+            list-style: none;
+            color: rgba(0, 0, 0, 0.87);
+            font-family: Arial, sans-serif;
+            text-decoration: none;
+            font-size: 14px;
+            margin-right: 1.1rem;
+
+        }
+
+        .navigation_container :hover {
+            text-decoration: underline;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <header class="header_navigation">
+        <ul class="navigation_container">
+            <li><a class="navigation_container" href="#">About</a></li>
+            <li><a class="navigation_container" href="#">Store</a></li>
+        </ul>
+        <ul class="navigation_container">
+            <li><a class="navigation_container" href="#">Gmail</a></li>
+            <li><a class="navigation_container" href="Image_Search.html">Images</a></li>
+            <li><a class="navigation_container" href="Advanced_Search.html">Advanced Search</a></li>
+            <li>
+                <a class="navigation_container" href="#"><i class="fa fa-th"></i></a>
+            </li>
+            <li><a class="navigation_container" href="#">GF</a></li>
+        </ul>
+    </header>
+
+
+
+    <form action="https://google.com/search">
+        <input type="text" name="q">
+        <input type="submit" value="Google Search">
+    </form>
+
+    <footer>
+
+
+    </footer>
+</body>
+
+</html>
