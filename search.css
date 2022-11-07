@@ -114,8 +114,8 @@ a {
     display: flex;
     flex-direction: row;
     font-size: 15px;
-    align-items: flex-start;
-    /* justify-content: space-between; */
+    /* align-items: flex-start; */
+    justify-content: space-between;
     list-style: none;
     text-decoration: none;
     font-family: Arial, sans-serif;
