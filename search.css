@@ -1,3 +1,9 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
 .header_navigation,
 .navigation_container {
     display: flex;
@@ -69,6 +75,32 @@
     box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
     border-color: rgba(223, 225, 229, 0);
     outline: none;
+}
+
+footer {
+    color: rgba(0, 0, 0, 0.72);
+    /* background: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4; */
+    font-size: 15px;
+    width: 100vw;
+    /* padding: 0.8rem 2.5rem; */
+}
+
+.footer_Canada {
+    display: flex;
+    /* display: block; */
+    flex-direction: column;
+    /* font-size: 15px; */
+    align-items: flex-start;
+    /* margin-top: 1%; */
+    font-family: Arial, sans-serif;
+    background: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+    padding: 0.8rem 2.5rem;
+    /* width: 100vw; */
+    /* justify-content: space-between; */
 }
 
 /* For the smaller screen */
