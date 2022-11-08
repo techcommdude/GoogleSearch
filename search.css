@@ -12,6 +12,10 @@ a {
     
 }
 
+/* div {
+    display: flex;
+} */
+
 .header_navigation,
 .navigation_container {
     display: flex;
@@ -115,7 +119,7 @@ a {
     flex-direction: row;
     font-size: 15px;
     /* align-items: flex-start; */
-    justify-content: space-between;
+    /* justify-content: space-between; */
     list-style: none;
     text-decoration: none;
     font-family: Arial, sans-serif;
@@ -130,6 +134,11 @@ a {
     /* justify-content: space-between; */
 }
 
+.container_footer {
+    display: flex;
+    justify-content: space-between;
+    background: #f2f2f2;
+}
 /* For the smaller screen */
 
 @media only screen and (max-width: 600px) {
