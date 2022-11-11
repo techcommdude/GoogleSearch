@@ -12,27 +12,30 @@ a {
 
 }
 
-.input-icons {
+/* .input-icons {
 
     width: 100%;
     margin-bottom: 10px;
-}
+} */
 
-.input-icons i {
+/* .input-icons i {
     position: absolute;
-}
+} */
 
 .icon-search {
 
     position: absolute;
     margin: 1.3rem;
     color: gray;
+    font-size: 1.2rem;
 }
 
 .icon-micro {
-    right: 30px;
-    position: absolute;
+    left: 37rem;
+    position: relative;
     color: #4285f4;
+    margin: 1.3rem;
+    bottom: 3.4rem;
 }
 
 /* .search-icon {
