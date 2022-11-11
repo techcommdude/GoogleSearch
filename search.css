@@ -12,6 +12,38 @@ a {
 
 }
 
+/* .fa {
+    font-size: 1.2rem;
+    position: absolute;
+    top: 15px;
+} */
+
+.input-icons {
+
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.input-icons i {
+    position: absolute;
+}
+
+.icon-search {
+    left: 15px;
+}
+
+.icon-micro {
+    right: 30px;
+}
+
+.search-icon {
+    position: absolute;
+            left: 15px;
+            top: 40px;
+            color: gray;
+
+}
+
 
 .header_navigation,
 .navigation_container {
@@ -26,7 +58,6 @@ a {
     margin-block-start: 0.6em;
     margin-block-end: 1em;
     margin-inline-start: 0px;
-    /* padding-inline-start: 15px; */
 
 }
 
