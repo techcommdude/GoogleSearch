@@ -24,18 +24,22 @@ a {
 
 .icon-search {
 
-    position: absolute;
-    margin: 1.3rem;
+    position: relative;
+    /* margin: 1.3rem; */
     color: gray;
     font-size: 1.2rem;
+    left: 1rem;
+    top: 2.2rem;
 }
 
 .icon-micro {
-    left: 37rem;
+    /* The microphone disappears when the window is minimized.  Why? */
     position: relative;
     color: #4285f4;
-    margin: 1.3rem;
-    bottom: 3.4rem;
+    top: 36px;
+    left: 595px;
+
+
 }
 
 /* .search-icon {
