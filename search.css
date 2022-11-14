@@ -50,6 +50,22 @@ header ul li a .fa-th {
     text-decoration: none;
 }
 
+.logo span {
+    /* position: absolute; */
+    color: #4285f4;
+    bottom: 38px;
+    right: 5px;
+  }
+
+.logo-subtext {
+    position: relative;
+    color: #4285f4;
+    bottom: 20px;
+    left: 230px;
+  }
+
+
+
 .header_navigation,
 .navigation_container {
     display: flex;
