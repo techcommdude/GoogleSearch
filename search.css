@@ -13,7 +13,11 @@ a {
 
 .french {
     color: -webkit-link;
-}
+    }
+
+    .french:hover {
+        text-decoration: underline;
+      }
 
 /* .input-icons {
 
