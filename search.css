@@ -11,6 +11,10 @@ a {
 
 }
 
+.french {
+    color: -webkit-link;
+}
+
 /* .input-icons {
 
     width: 100%;
@@ -24,7 +28,6 @@ a {
 .icon-search {
 
     position: relative;
-    /* margin: 1.3rem; */
     color: gray;
     font-size: 1.2rem;
     left: 1rem;
