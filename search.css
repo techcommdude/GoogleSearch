@@ -13,21 +13,11 @@ a {
 
 .french {
     color: -webkit-link;
-    }
+}
 
-    .french:hover {
-        text-decoration: underline;
-      }
-
-/* .input-icons {
-
-    width: 100%;
-    margin-bottom: 10px;
-} */
-
-/* .input-icons i {
-    position: absolute;
-} */
+.french:hover {
+    text-decoration: underline;
+}
 
 .icon-search {
 
