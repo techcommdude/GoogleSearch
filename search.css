@@ -4,7 +4,6 @@ body {
     padding: 0;
 }
 
-
 a {
     text-decoration: none;
     color: rgba(0, 0, 0, 0.72);
@@ -38,8 +37,10 @@ a {
     color: #4285f4;
     top: 36px;
     left: 595px;
+}
 
-
+.lang-offer {
+    font-size: 13px;
 }
 
 /* .search-icon {
@@ -230,4 +231,14 @@ a {
     .advanced-main__heading-tips {
         display: none;
     }
+
+    .icon-micro {
+        position: relative;
+        color: #4285f4;
+        top: 36px;
+        left: 315px;
+
+    }
+
+
 }
