@@ -32,7 +32,6 @@ a {
 }
 
 .icon-micro {
-    /* The microphone disappears when the window is minimized.  Why? */
     position: relative;
     color: #4285f4;
     top: 36px;
@@ -49,17 +48,6 @@ header ul li a .fa-th {
     padding: 0 0.2rem;
     text-decoration: none;
 }
-
-
-
-/* .search-icon {
-    position: absolute;
-    left: 15px;
-    top: 40px;
-    color: gray;
-
-} */
-
 
 .header_navigation,
 .navigation_container {
@@ -258,6 +246,5 @@ header ul li a .fa-th {
         left: 315px;
 
     }
-
 
 }
