@@ -51,7 +51,6 @@ header ul li a .fa-th {
 }
 
 .logo span {
-    /* position: absolute; */
     color: #4285f4;
     bottom: 38px;
     right: 5px;
@@ -261,12 +260,7 @@ a.googleapps:hover {
         width: 200px;
     }
 
-    .logo span {
-        position: absolute;
-        color: #4285f4;
-        bottom: 30px;
-        right: -10px;
-    }
+
 
     .btn-search {
         font-size: 14px !important;
@@ -307,4 +301,18 @@ a.googleapps:hover {
         left: 315px;
 
     }
+
+    .logo span {
+        position: absolute;
+        color: #4285f4;
+        bottom: -24px;
+        right: 215px;
+    }
+    
+    .logo-subtext {
+        position: relative;
+        color: #4285f4;
+        /* bottom: 20px;
+        left: 230px; */
+      }
 }
