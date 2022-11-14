@@ -64,13 +64,14 @@ header ul li a .fa-th {
 
 }
 
+a.googleapps:hover {
+    text-decoration: none !important;
+}
 .navigation_container :hover {
     text-decoration: underline;
 }
 
-.navigation_container .googleapps :hover {
-    text-decoration: none !important;
-}
+
 
 .letter-icon {
     color: #fff;
@@ -179,6 +180,49 @@ header ul li a .fa-th {
     justify-content: space-between;
     background: #f2f2f2;
 }
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown .dropbtn {
+    background: none;
+    color: rgba(0, 0, 0, 0.72);
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+  }
+  
+  .dropdown .dropbtn:focus {
+    outline: none;
+  }
+  
+  .dropdown .dropdown-content {
+    display: none;
+    position: absolute;
+    top: -280px;
+    left: -140px;
+    background-color: #f9f9f9;
+    border: 1px solid rgba(0, 0, 0, 0.44);
+    padding: 1rem;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+  
+  .dropdown .dropdown-content a {
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown .dropdown-content a:hover {
+    text-decoration: underline;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
 
 /* For the smaller screen */
 
