@@ -12,7 +12,7 @@ a {
 }
 
 .french {
-    color: -webkit-link;
+    color: #1a0dab;
 }
 
 .french:hover {
@@ -46,6 +46,8 @@ header ul li a .fa-th {
     text-decoration: none;
 }
 
+
+
 .header_navigation,
 .navigation_container {
     display: flex;
@@ -64,6 +66,10 @@ header ul li a .fa-th {
 
 .navigation_container :hover {
     text-decoration: underline;
+}
+
+.navigation_container .googleapps :hover {
+    text-decoration: none !important;
 }
 
 .letter-icon {
@@ -97,7 +103,7 @@ header ul li a .fa-th {
 
 .btn-search {
     padding: 0.8rem 1.2rem;
-    color: rgba(0, 0, 0, 0.87);
+    color: #3c4043;
     border: 1px solid transparent;
     background: #f2f2f2;
     margin: 1.7rem 0.3rem 2rem 0.3rem;
