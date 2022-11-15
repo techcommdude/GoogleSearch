@@ -42,17 +42,39 @@ a:hover {
     position: relative;
     color: #4285f4;
     top: 36px;
-    left: 595px;
+    left: 535px;
 }
 
 .icon-camera {
-    right: 100px;
+    left: 520px;
+    top: 35px;
     font-size: 1.2rem;
     position: relative;
-  }
+}
 
 .lang-offer {
     font-size: 13px;
+}
+
+.main .image-search_button {
+    /* position: absolute; */
+    /* right: 18px;
+    top: 15px; */
+    cursor: pointer;
+    background: none;
+    border: none;
+}
+
+.image-search_button:focus {
+    outline: none;
+}
+
+.image-search_button #search {
+    position: relative;
+    color: #4285f4;
+    bottom: -37px;
+    font-size: 18px;
+    left: 545px;
 }
 
 header ul li a .fa-th {
