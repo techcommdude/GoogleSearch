@@ -72,7 +72,7 @@ a:hover {
 .image-search_button #search {
     position: relative;
     color: #4285f4;
-    bottom: -37px;
+    bottom: -36px;
     font-size: 18px;
     left: 545px;
 }
@@ -335,6 +335,13 @@ a.googleapps:hover {
         top: 36px;
         left: 315px;
 
+    }
+
+    .icon-camera {
+        left: 230px;
+        top: 35px;
+        font-size: 1.2rem;
+        position: relative;
     }
 
     .logo span {
