@@ -2,6 +2,7 @@ html,
 body {
     margin: 0;
     padding: 0;
+    font-family: Arial, sans-serif;
 }
 
 .entire_container {
@@ -23,6 +24,13 @@ body {
   
   .header-advanced li {
     margin-top: 0.5rem;
+  }
+
+.advanced-main_heading h2 {
+    color: #d93025;
+    font-size: 20px;
+    font-weight: 400;
+
   }
 
   .header-menu {
