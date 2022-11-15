@@ -45,6 +45,12 @@ a:hover {
     left: 595px;
 }
 
+.icon-camera {
+    right: 100px;
+    font-size: 1.2rem;
+    position: relative;
+  }
+
 .lang-offer {
     font-size: 13px;
 }
