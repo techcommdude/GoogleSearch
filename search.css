@@ -33,6 +33,11 @@ body {
 
   }
 
+  .advanced-main_heading {
+    border-bottom: 1px solid #f2f2f2;
+    padding: 0.5rem 2.5rem;
+}
+
   .header-menu {
     display: flex;
     list-style: none;
