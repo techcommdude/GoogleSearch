@@ -10,6 +10,27 @@ body {
     flex-direction: column;
 }
 
+.header-advanced {
+    background: #f2f2f2;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .header-advanced .header-logo {
+    width: 100px;
+    padding: 1rem;
+  }
+  
+  .header-advanced li {
+    margin-top: 0.5rem;
+  }
+
+  .header-menu {
+    display: flex;
+    list-style: none;
+    font-size: 15px;
+  }
+
 a {
     text-decoration: none;
     color: rgba(0, 0, 0, 0.72);
@@ -64,9 +85,6 @@ a:hover {
 }
 
 .main .image-search_button {
-    /* position: absolute; */
-    /* right: 18px;
-    top: 15px; */
     cursor: pointer;
     background: none;
     border: none;
