@@ -156,6 +156,11 @@ header ul li a .fa-th {
     left: 230px;
 }
 
+.advanced-main__body-form-fields {
+    width: 60%;
+    padding-right: 1rem;
+}
+
 
 
 .header_navigation,
@@ -331,6 +336,9 @@ a.googleapps:hover {
     display: block;
 }
 
+
+
+
 /* For the smaller screen */
 
 @media only screen and (max-width: 600px) {
@@ -382,6 +390,8 @@ a.googleapps:hover {
         width: 100%;
         padding-right: 0;
     }
+
+   
 
     .advanced-main__body-tips,
     .advanced-main__heading-tips {
