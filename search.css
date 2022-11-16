@@ -205,6 +205,14 @@ header ul li a .fa-th {
     font-size: 13px;
 }
 
+.advanced-main__body {
+    width: 85%;
+    padding: 0.5rem 2.5rem;
+}
+
+.advanced-main__body input:focus {
+    outline: 1px solid #4285f4;
+}
 
 .header_navigation,
 .navigation_container {
@@ -440,6 +448,8 @@ a.googleapps:hover {
     .advanced-main__heading-tips {
         display: none;
     }
+
+ 
 
     .icon-micro {
         position: relative;
