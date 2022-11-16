@@ -214,6 +214,22 @@ header ul li a .fa-th {
     outline: 1px solid #4285f4;
 }
 
+.advanced-main__body button {
+    background: #4285f4;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    font-weight: 600;
+    font-size: 12px;
+    float: right;
+    margin: 0.5rem 0 1.8rem 0;
+    cursor: pointer;
+}
+
+.advanced-main__body #nr-to, .advanced-main__body #nr-from {
+    width: 200px;
+}
+
 .header_navigation,
 .navigation_container {
     display: flex;
