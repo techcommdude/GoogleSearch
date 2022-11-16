@@ -5,6 +5,11 @@ body {
     font-family: Arial, sans-serif;
 }
 
+.advanced-body {
+    width: 100vw;
+
+}
+
 .entire_container {
     height: 100vh;
     display: flex;
@@ -15,25 +20,25 @@ body {
     background: #f2f2f2;
     display: flex;
     justify-content: space-between;
-  }
-  
-  .header-advanced .header-logo {
+}
+
+.header-advanced .header-logo {
     width: 100px;
     padding: 1rem;
-  }
-  
-  .header-advanced li {
+}
+
+.header-advanced li {
     margin-top: 0.5rem;
-  }
+}
 
 .advanced-main_heading h2 {
     color: #d93025;
     font-size: 20px;
     font-weight: 400;
 
-  }
+}
 
-  .advanced-main h4 {
+.advanced-main h4 {
     font-weight: 400;
     font-size: 18px;
 }
@@ -43,16 +48,16 @@ body {
     color: rgba(0, 0, 0, 0.72);
 }
 
-  .advanced-main_heading {
+.advanced-main_heading {
     border-bottom: 1px solid #f2f2f2;
     padding: 0.5rem 2.5rem;
 }
 
-  .header-menu {
+.header-menu {
     display: flex;
     list-style: none;
     font-size: 15px;
-  }
+}
 
 a {
     text-decoration: none;
@@ -399,6 +404,7 @@ a.googleapps:hover {
         font-size: 1.2rem;
         position: relative;
     }
+
     .image-search_button #search {
         position: relative;
         color: #4285f4;
