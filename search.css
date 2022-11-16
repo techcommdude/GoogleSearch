@@ -33,6 +33,16 @@ body {
 
   }
 
+  .advanced-main h4 {
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.advanced-main {
+    /* min-height: 85vh; */
+    color: rgba(0, 0, 0, 0.72);
+}
+
   .advanced-main_heading {
     border-bottom: 1px solid #f2f2f2;
     padding: 0.5rem 2.5rem;
