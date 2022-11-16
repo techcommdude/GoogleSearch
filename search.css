@@ -55,8 +55,8 @@ body {
 
 .advanced-main__body-form-upper,
 .advanced-main__body-form-down {
-  border-bottom: 1px solid #f2f2f2;
-  display: flex;
+    border-bottom: 1px solid #f2f2f2;
+    display: flex;
 }
 
 .header-menu {
@@ -167,12 +167,14 @@ header ul li a .fa-th {
     margin-bottom: 0.8rem;
 }
 
-.advanced-main__body-form-upper, .advanced-main__body-form-down {
+.advanced-main__body-form-upper,
+.advanced-main__body-form-down {
     border-bottom: 1px solid #f2f2f2;
     display: flex;
 }
 
-.advanced-main__body input, .advanced-main__body select {
+.advanced-main__body input,
+.advanced-main__body select {
     border: 1px solid #e4e4e4;
     border-radius: 0;
     padding: 0.4rem 0.6rem;
@@ -186,6 +188,14 @@ header ul li a .fa-th {
     width: 73%;
 }
 
+.advanced-main__body .second-tips {
+    margin-top: 3.2rem;
+}
+
+.advanced-main__body p {
+    font-size: 11px;
+    line-height: 2.9;
+}
 
 
 .header_navigation,
@@ -416,7 +426,7 @@ a.googleapps:hover {
         padding-right: 0;
     }
 
-   
+
 
     .advanced-main__body-tips,
     .advanced-main__heading-tips {
