@@ -197,6 +197,14 @@ header ul li a .fa-th {
     line-height: 2.9;
 }
 
+.advanced-main__body input {
+    width: 70%;
+}
+
+.advanced-main__body label {
+    font-size: 13px;
+}
+
 
 .header_navigation,
 .navigation_container {
