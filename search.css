@@ -267,7 +267,8 @@ header ul li a .fa-th {
 }
 
 .header_navigation,
-.navigation_container {
+.navigation_container_first,
+.navigation_container_second {
     display: flex;
     justify-content: space-between;
     list-style: none;
@@ -562,5 +563,11 @@ footer div:nth-child(1) {
         position: relative;
         color: #4285f4;
 
+    }
+}
+
+@media screen and (max-width:500px) {
+    .navigation_container_first {
+        display: none
     }
 }
