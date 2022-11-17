@@ -3,6 +3,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
+    width: 100vw;
 }
 
 footer ul {
@@ -19,6 +20,16 @@ footer ul {
 .advanced-body {
     width: 100vw;
 
+}
+
+.main-body {
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
 }
 
 .entire_container {
@@ -264,10 +275,10 @@ header ul li a .fa-th {
     font-family: Arial, sans-serif;
     text-decoration: none;
     font-size: 14px;
-    margin-right: 0.9rem;
     margin-block-start: 0.6em;
     margin-block-end: 1em;
     margin-inline-start: 0px;
+    padding-inline-start: 10px;
 
 }
 
@@ -447,6 +458,16 @@ footer div:nth-child(1) {
 
     header .header-info {
         display: none;
+    }
+
+    .main-body {
+        font-family: Arial, sans-serif;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin: 0;
+        padding: 0;
     }
 
     .input-field {
