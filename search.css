@@ -238,7 +238,8 @@ header ul li a .fa-th {
     cursor: pointer;
 }
 
-.advanced-main__body #nr-to, .advanced-main__body #nr-from {
+.advanced-main__body #nr-to,
+.advanced-main__body #nr-from {
     width: 200px;
 }
 
