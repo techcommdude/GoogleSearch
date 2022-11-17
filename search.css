@@ -104,7 +104,6 @@ a {
     text-decoration: none;
     color: rgba(0, 0, 0, 0.72);
     padding-right: 20px;
-
 }
 
 a:hover {
@@ -280,7 +279,6 @@ header ul li a .fa-th {
     margin-block-end: 1em;
     margin-inline-start: 0px;
     padding-inline-start: 10px;
-
 }
 
 a.googleapps:hover {
@@ -448,8 +446,6 @@ footer div:nth-child(1) {
     padding: 0.8rem 2.5rem;
 }
 
-
-
 /* For the smaller screen */
 
 @media only screen and (max-width: 600px) {
@@ -483,8 +479,6 @@ footer div:nth-child(1) {
         width: 200px;
     }
 
-
-
     .btn-search {
         font-size: 14px !important;
         padding: 0.5rem 1rem !important;
@@ -512,14 +506,10 @@ footer div:nth-child(1) {
         padding-right: 0;
     }
 
-
-
     .advanced-main__body-tips,
     .advanced-main__heading-tips {
         display: none;
     }
-
-
 
     .icon-micro {
         position: relative;
@@ -534,7 +524,6 @@ footer div:nth-child(1) {
         color: #4285f4;
         top: 36px;
         left: 249px;
-
     }
 
     .icon-camera {
@@ -565,6 +554,8 @@ footer div:nth-child(1) {
 
     }
 }
+
+/* Remove the menu when screen is resized. */
 
 @media screen and (max-width:500px) {
     .navigation_container_first {
