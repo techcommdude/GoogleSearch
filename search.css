@@ -562,3 +562,11 @@ footer div:nth-child(1) {
         display: none
     }
 }
+
+@media only screen and (max-width: 1200px)
+{
+.advanced-main__body #nr-to, .advanced-main__body #nr-from {
+    width: 100px;
+
+}
+}
