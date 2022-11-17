@@ -8,6 +8,12 @@ body {
 footer ul {
 
     list-style: none;
+    background: #f2f2f2;
+    display: flex;
+    margin-bottom: 0px;
+    padding-bottom: 15px;
+    margin-top: 0px;
+    padding-top: 15px
 }
 
 .advanced-body {
@@ -68,7 +74,13 @@ footer ul {
 
     display: flex;
     flex-direction: column;
+    padding-bottom: 2.5rem;
 
+}
+
+.advanced-main__body a {
+    font-size: 13px;
+    color: -webkit-link;
 }
 
 .header-menu {
@@ -419,6 +431,7 @@ a.googleapps:hover {
 footer div:nth-child(1) {
     border-top: 1px solid #e4e4e4;
     border-bottom: 1px solid #e4e4e4;
+    background: #f2f2f2;
     font-size: 15px;
     padding: 0.8rem 2.5rem;
 }
