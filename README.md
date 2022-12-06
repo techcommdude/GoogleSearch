@@ -9,7 +9,7 @@ Some of the technologies used:
 * HTML
 * CSS
 
-A screencast of the project can be found here: <a href="https://youtu.be/ZhVJL6xhVHA" target="_blank">https://youtu.be/ZhVJL6xhVHA</a>
+A screencast of the project can be found here: <a href="https://youtu.be/ZhVJL6xhVHA" target="_blank" rel="noopener">https://youtu.be/ZhVJL6xhVHA</a>
 
 -------------------
 
