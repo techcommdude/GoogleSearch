@@ -15,7 +15,7 @@ A screencast of the project can be found here: <a href="https://youtu.be/ZhVJL6x
 
 This project meets the following requirements:
 
-* Three pages: one for regular Google Search (which must be called index.html), one for Google Image Search, and one for Google Advanced Search.
+* Three pages: one for regular Google Search (which is called **index.html**), one for Google Image Search, and one for Google Advanced Search.
     * On the Google Search page, there are links in the upper-right of the page to go to Image Search or Advanced Search. On each of the other two pages, there is a link in the upper-right to go back to Google Search.
 
 * On the Google Search page, the user can type in a query, click “Google Search”, and be taken to the Google search results for that page.
