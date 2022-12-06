@@ -37,3 +37,12 @@ This project meets the following requirements:
     * You may encounter a redirect notice when using the “I’m Feeling Lucky” button, but this is an expected consequence of a security feature implemented by Google.
 
 * The CSS resembles Google’s own aesthetics.
+
+## Google Search:
+![Google Search](Google_Search.png)
+
+## Image Search:
+![Image Search](Image_Search.png)
+
+## Advanced Search:
+![Advanced Search](Advanced_Search.png.png)
