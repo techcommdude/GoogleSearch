@@ -45,4 +45,4 @@ This project meets the following requirements:
 ![Image Search](Image_Search.png)
 
 ## Advanced Search:
-![Advanced Search](Advanced_Search.png.png)
+![Advanced Search](Advanced_Search.png)
