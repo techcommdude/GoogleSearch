@@ -1,6 +1,8 @@
 # Google Search website
 
-This project is deployed on Heroku: https://static-site-geoff.herokuapp.com/index.html
+This project is deployed on Heroku: <a href="https://static-site-geoff.herokuapp.com/index.html" target="_blank" rel="noopener">https://static-site-geoff.herokuapp.com/index.html</a>
+
+A screencast of the project can be found here: <a href="https://youtu.be/ZhVJL6xhVHA" target="_blank" rel="noopener">https://youtu.be/ZhVJL6xhVHA</a>
 
 This site attempts resembles the aesthetics, style and functionality of the Google Search main page, Google Image Search, and Google Advanced Search.
 
@@ -10,8 +12,7 @@ Some of the technologies used when building this project:
 * Git
 * HTML
 * CSS
-
-A screencast of the project can be found here: <a href="https://youtu.be/ZhVJL6xhVHA" target="_blank" rel="noopener">https://youtu.be/ZhVJL6xhVHA</a>
+* Heroku
 
 -------------------
 
