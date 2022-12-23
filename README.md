@@ -4,7 +4,7 @@ This project is deployed on Heroku: https://static-site-geoff.herokuapp.com/inde
 
 This site attempts resembles the aesthetics, style and functionality of the Google Search main page, Google Image Search, and Google Advanced Search.
 
-Some of the technologies used:
+Some of the technologies used when building this project:
 
 * Visual Studio Code
 * Git
