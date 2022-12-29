@@ -1,6 +1,6 @@
 # Google Search website
 
-This project is deployed on Heroku: <a href="https://static-site-geoff.herokuapp.com/index.html" target="_blank" rel="noopener">https://static-site-geoff.herokuapp.com/index.html</a>
+This project is deployed on Heroku (have patience since the instance is likely sleeping): <a href="https://static-site-geoff.herokuapp.com/index.html" target="_blank" rel="noopener">https://static-site-geoff.herokuapp.com/index.html</a>
 
 A screencast of the project can be found here: <a href="https://youtu.be/ZhVJL6xhVHA" target="_blank" rel="noopener">https://youtu.be/ZhVJL6xhVHA</a>
 
