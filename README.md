@@ -4,6 +4,12 @@ This project is deployed on Heroku (have patience since the instance is likely s
 
 A screencast of the project can be found here: <a href="https://youtu.be/NbiYeKpHp8g" target="_blank" rel="noopener">https://youtu.be/NbiYeKpHp8g</a>
 
+A screencast of the project is available on YouTube:
+
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=NbiYeKpHp8g
+" target="_blank"><img src="Search.gif"
+alt="Search by Geoff Farnell" width="600" height="360" /></a>
+
 This site attempts resembles the aesthetics, style and functionality of the Google Search main page, Google Image Search, and Google Advanced Search.
 
 Some of the technologies used when building this project:
