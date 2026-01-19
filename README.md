@@ -1,7 +1,5 @@
 # Google Search website
 
-This project is deployed on Heroku (have patience since the instance is likely sleeping): <a href="https://static-site-geoff.herokuapp.com/index.html" target="_blank" rel="noopener">https://static-site-geoff.herokuapp.com/index.html</a>
-
 A screencast of the project is available on YouTube:
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=NbiYeKpHp8g
@@ -16,7 +14,6 @@ Some of the technologies used when building this project:
 * Git
 * HTML
 * CSS
-* Heroku
 
 -------------------
 
@@ -53,3 +50,4 @@ This project meets the following requirements:
 
 ## Advanced Search:
 ![Advanced Search](Advanced_Search.png)
+
