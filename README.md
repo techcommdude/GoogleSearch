@@ -1,6 +1,6 @@
 # Google Search website
 
-A screencast of the project is available on YouTube:
+A screencast of the project is available on [YouTube](https://www.youtube.com/watch?v=NbiYeKpHp8g):
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=NbiYeKpHp8g
 " target="_blank"><img src="Search.gif"
@@ -50,4 +50,5 @@ This project meets the following requirements:
 
 ## Advanced Search:
 ![Advanced Search](Advanced_Search.png)
+
 
